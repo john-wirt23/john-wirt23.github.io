@@ -1,0 +1,88 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+hr {
+    border-top: .2em solid black;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto; 
+    width: auto;
+    display: inline-block;
+}
+
+li {
+    float: left;
+    padding: 5px 35px;
+    text-align: center;
+    list-style-type: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: black;
+}
+
+li.nav a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+}
+
+.subtitle {
+    text-align: center;
+    text-decoration: none;
+    margin: 2% 25%;
+    border-top: .1em solid black;
+    border-bottom: .1em solid black;
+    border-radius: .2em;
+}
+
+.bio-paragraph {
+    display: block;
+    text-align: center;
+}
+
+li.cert-item{
+    padding: 5px;
+    margin-bottom: 15px;
+};
+
+#logo {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+};

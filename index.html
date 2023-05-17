@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <title>John Wirt: Portfolio Project</title>
+        <link rel="stylesheet" type="text/css" href="./styles.css">
+        <script>
+            let d = new Date();
+            alert("Today's date is " + d + ".This website was created on 5/16/2023.")
+        </script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h2 id="logo">John Wirt</h2>
+                <h1 class="subtitle">Personal Portfolio Website</h1>
+                <ul class="nav">
+                    <li><a href="#bio">Biography</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="./contact.html">Contact Info</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="bio">
+                <h2 id="bio-subtitle">Biography</h2>
+                <div class="bio-container">
+                    <div class="bio-paragraph">
+                        <p id="bio-text1">My name is John Wirt. I am an aspiring entry level programmer.</p>
+                        <hr>
+                        <p id="bio-text2">I hail from Weatherford, TX. Which is located in the North Central Region of Texas in the United States.</p>
+                        <hr>
+                        <p id="bio-text3">I am 20 years old. Some of my hobbies include computer-science learning, watching television, listening to jazz, drum tracks, and rock and roll of course. I enjoy travel, family, working hard, achieving results and living life to the fullest</p>
+                    </div>
+                    <div class="bio-images">
+                    </div>
+                </div>
+            </section>
+            <section id="projects">
+                <div id="project-1">
+                    <h2>Certifications</h2>
+                    <h3 id="project-1-header">Random Message Generator</h3>
+                    <p id="project-1-description">The Random Message Generator is a simple javascript program that is capable of generating a truly random message each time the program is run (below):</p>
+                    <hr>
+                    <p id="randMessGen"></p>
+                    <p><em>Refresh the page for a new message!</em></p>
+                </div>
+                <div id="project-2">
+                    <h3 id="project-2-header">Personal Portfolio Website</h3>
+                    <p id="project-2-description">This website you're on right now is in fact a project in it's own right. It is subsequently named the <em>Personal Portfolio Project</em></p>
+                </div>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div id="skills-list">
+                    <ul role="presentation" class="skills">
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
+            <section id="certifications">
+                <div id="certifications-list">
+                    <h3>Pending Certifications</h3>
+                    <ul>
+                        <li class="cert-item">-Full-Stack Engineer-</li>
+                    </ul>
+                    <h3>Completed Certifications</h3>
+                    <p>Nothing here yet...</p>
+                </div>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            <hr>
+        </footer>
+        <script src="./script.js">
+        </script>
+    </body>
+</html>
